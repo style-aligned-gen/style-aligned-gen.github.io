@@ -28,9 +28,13 @@ body {
   box-shadow: 0px 0px 10px #999;
   border-radius: 15px;
 }
-a, a:visited {
-  color: #224b8d;
-  font-weight: 300;
+#authors a {
+  text-decoration: none; color: black;
+  margin: 0 10px;
+}
+#results, #results2  a {
+    text-decoration: none;
+  color: black;
 }
 #authors {
   text-align: center;
@@ -42,9 +46,7 @@ a, a:visited {
   margin-bottom: 20px;
   font-style: italic;
 }
-#authors a {
-  margin: 0 10px;
-}
+
 h1 {
   text-align: center;
   font-size: 35px;
@@ -52,6 +54,10 @@ h1 {
 }
 h2 {
   font-size: 30px;
+  font-weight: 300;
+}
+h4 {
+  font-size: 24px;
   font-weight: 300;
 }
 code {
