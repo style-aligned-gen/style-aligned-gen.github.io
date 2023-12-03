@@ -164,7 +164,7 @@ p code {
 
 .card {
     perspective: 1000px;
-    position: relative; /* Add relative positioning */
+    position: relative;
 }
 
 .card:before {
@@ -174,7 +174,7 @@ p code {
 }
 
 .card-inner {
-    position: absolute; /* Change to absolute */
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -198,7 +198,7 @@ p code {
 .card-front img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Adjust as needed */
+    object-fit: cover;
 }
 
 .card-back {
